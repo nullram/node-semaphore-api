@@ -1,4 +1,4 @@
-# node-semaphore-sms
+# semaphore-sms-api
 
 Semaphore SMS API Client based on [homepage](http://semaphore.co/).
 
@@ -14,7 +14,7 @@ You also need to provide your **API KEY** from Semaphore.
 
 ## Usage
 
-	var Semaphore = require('node-semaphore-sms');
+	var Semaphore = require('semaphore-sms-api');
 
     var apikey = "YOUR_API_KEY";
 	var sms = new Semaphore(apikey);
