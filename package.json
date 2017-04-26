@@ -1,5 +1,5 @@
 {
-  "name": "node-semaphore-sms",
+  "name": "semaphore",
   "version": "1.0.0",
   "description": "Semaphore SMS API",
   "main": "index.js",

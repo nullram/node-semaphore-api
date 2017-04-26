@@ -1,14 +1,14 @@
 # node-semaphore-sms
 
-Semaphore SMS API Client for NodeJS. Semaphore is The Simplest Web to SMS API ever. To find out more and subscribe to their service, visit their [homepage](http://semaphore.co/).
+Semaphore SMS API Client based on [homepage](http://semaphore.co/).
 
-This SMS service is only available to mobile numbers from the Philippines.
+
 
 ## Installation
 
-	npm install node-semaphore-sms
+	npm install semaphore-sms-api
 
-You also need to change the file **config.json.sample** to **config.json**.
+
 
 You also need to provide your **API KEY** from Semaphore.
 
