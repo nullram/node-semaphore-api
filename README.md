@@ -23,7 +23,7 @@ You also need to provide your **API KEY** from Semaphore.
     sms.status(function(error, result) {
     	if (!error)
     		console.log(result);
-    });	
+    });
 
     // To send a single SMS message:
     var payload = {
@@ -38,14 +38,6 @@ You also need to provide your **API KEY** from Semaphore.
     		console.log(error);
     });    
 
-    // To send SMS to bulk numbers:
-	var bulk_numbers = "09179008888,09168769988";
-    sms.bulksms(bulk_numbers, function(error, result) {
-    	if (!error) {
-    		console.log(result);
-    	} else
-    		console.log(error);
-    });
 
 ## License
 
@@ -54,4 +46,3 @@ MIT
 ## Release History
 
 * 1.0.0 - Initial release
-* 1.0.3 - Minor refactoring
