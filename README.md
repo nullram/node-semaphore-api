@@ -20,7 +20,7 @@ You also need to provide your **API KEY** from Semaphore.
 	var sms = new Semaphore(apikey);
 
 	// To check your account status:
-    sms.status(function(error, result) {
+    sms.account(function(error, result) {
     	if (!error)
     		console.log(result);
     });
@@ -28,7 +28,7 @@ You also need to provide your **API KEY** from Semaphore.
     // To send a single SMS message:
     var payload = {
     	from: 'SEMAPHORE',
-    	to: '09179008888',
+    	to: '09179008888',// To send in bulk '09xxxxxxxxx,09xxxxxxxxx'
     	message: 'Semaphore API Rocks!'
     };
     sms.sendsms(payload, function(error, result) {
